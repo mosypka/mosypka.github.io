@@ -27,7 +27,7 @@ export default function Contact() {
 
           <a href="mailto:" className="contact-item" id="contact-email">
             <span className="contact-label">E-Mail</span>
-            <span className="contact-value">→ eintragen</span>
+            <span className="contact-value">mosypka@tutamail.com</span>
           </a>
 
           <div className="contact-item">
