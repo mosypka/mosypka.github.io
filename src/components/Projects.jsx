@@ -5,7 +5,7 @@ import './Projects.css'
 const PROJECT_META = [
   { slug: 'benchflow', tech: ['Python', 'Flask', 'SQLite', 'REST API', 'Gunicorn', 'Apache'], github: 'https://github.com/mosypka/benchflow', demo: null },
   { slug: 'peopledb', tech: ['JavaScript', 'HTML5', 'CSS3', 'LocalStorage', 'Canvas API'], github: 'https://github.com/mosypka/PeopleDB', demo: null },
-  { slug: 'fan-monitor', tech: ['Python', 'CustomTkinter', 'matplotlib', 'lm-sensors', 'nvidia-smi'], github: 'https://github.com/Matzorator/fan_monitor', demo: null },
+  { slug: 'fan-monitor', tech: ['Python', 'CustomTkinter', 'matplotlib', 'lm-sensors', 'nvidia-smi'], github: 'https://github.com/mosypka/fan_monitor', demo: null },
 ]
 
 export default function Projects() {
