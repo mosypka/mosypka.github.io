@@ -50,8 +50,8 @@ export default function Hero() {
         </p>
 
         <p className="hero-bio">
-          Fachinformatiker Anwendungsentwicklung mit ~25 Jahren IT-Background.
-          Derzeit Fullstack-Umschulung bei Velptec Hannover — ab August 2026 verfügbar.
+         Ausgebildeter Fachinformatiker AE. 20 Jahre Kundenservice haben meine Softskills geschärft —
+         jetzt back to Basics als Fullstack Developer. Verfügbar ab August 2026.
         </p>
 
         <div className="hero-actions">
