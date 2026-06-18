@@ -1,7 +1,9 @@
+
 import { useEffect, useState } from 'react'
 import { useLang } from '../LanguageContext'
 import { t } from '../translations'
 import './Hero.css'
+import userpic from '../assets/userpic_klein.jpg'
 
 const ROLES = [
   'Fullstack Developer',
@@ -43,6 +45,7 @@ export default function Hero() {
           <span className="prompt-sep">:~$</span>
           <span className="prompt-cmd"> whoami</span>
         </p>
+        <img src={userpic} alt="Matthias Osypka" className="hero-avatar" />
         <h1 className="hero-name">Matthias Osypka</h1>
         <p className="hero-role">
           <span className="role-text">{displayed}</span>

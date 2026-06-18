@@ -17,6 +17,15 @@
   margin-bottom: 1.5rem;
 }
 
+.hero-avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--green-dim);
+  margin-bottom: 1.5rem;
+}
+
 .prompt-user  { color: var(--green); }
 .prompt-at    { color: var(--text-muted); }
 .prompt-host  { color: var(--green-dim); }
