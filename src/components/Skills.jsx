@@ -11,7 +11,7 @@ const SKILLS = [
   },
   {
     category: 'DevOps & Tools',
-    items: ['Git', 'GitHub Actions', 'Docker', 'Podman', 'Linux (Fedora)', 'Nginx', 'Apache'],
+    items: ['Git', 'GitHub Actions', 'Docker', 'Podman', 'Linux (Fedora)', 'Apache'],
   },
   {
     category: 'Frühere Erfahrung',
