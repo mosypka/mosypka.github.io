@@ -1,21 +1,39 @@
 import './index.css'
+import { LanguageProvider, useLang } from './LanguageContext'
+import { t } from './translations'
+import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
+import About from './components/About'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
 
-export default function App() {
+function AppContent() {
+  const { lang } = useLang()
+  const tx = t[lang]
   return (
     <>
-      <Hero />
-      <Projects />
-      <Skills />
-      <Contact />
+      <Navbar />
+      <main style={{ paddingTop: '56px' }}>
+        <Hero />
+        <Projects />
+        <About />
+        <Skills />
+        <Contact />
+      </main>
       <footer>
         <div className="container">
-          <p>© 2026 Matthias Osypka · Built with Vite + React · Deployed via GitHub Pages</p>
+          <p>{tx.footer}</p>
         </div>
       </footer>
     </>
+  )
+}
+
+export default function App() {
+  return (
+    <LanguageProvider>
+      <AppContent />
+    </LanguageProvider>
   )
 }

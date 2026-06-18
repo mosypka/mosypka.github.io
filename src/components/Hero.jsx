@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react'
+import { useLang } from '../LanguageContext'
+import { t } from '../translations'
 import './Hero.css'
 
 const ROLES = [
@@ -9,6 +11,8 @@ const ROLES = [
 ]
 
 export default function Hero() {
+  const { lang } = useLang()
+  const tx = t[lang]
   const [roleIndex, setRoleIndex] = useState(0)
   const [displayed, setDisplayed] = useState('')
   const [deleting, setDeleting] = useState(false)
@@ -16,7 +20,6 @@ export default function Hero() {
   useEffect(() => {
     const target = ROLES[roleIndex]
     let timeout
-
     if (!deleting && displayed.length < target.length) {
       timeout = setTimeout(() => setDisplayed(target.slice(0, displayed.length + 1)), 60)
     } else if (!deleting && displayed.length === target.length) {
@@ -27,7 +30,6 @@ export default function Hero() {
       setDeleting(false)
       setRoleIndex((i) => (i + 1) % ROLES.length)
     }
-
     return () => clearTimeout(timeout)
   }, [displayed, deleting, roleIndex])
 
@@ -41,30 +43,17 @@ export default function Hero() {
           <span className="prompt-sep">:~$</span>
           <span className="prompt-cmd"> whoami</span>
         </p>
-
         <h1 className="hero-name">Matthias Osypka</h1>
-
         <p className="hero-role">
           <span className="role-text">{displayed}</span>
           <span className="cursor" aria-hidden="true">▋</span>
         </p>
-
-        <p className="hero-bio">
-         Ausgebildeter Fachinformatiker AE. 20 Jahre Kundenservice haben meine Softskills geschärft —
-         jetzt back to Basics als Fullstack Developer. Verfügbar ab August 2026.
-        </p>
-
+        <p className="hero-bio">{tx.hero_bio}</p>
         <div className="hero-actions">
-          <a href="#projects" className="btn btn-primary">Projekte</a>
-          <a href="#contact" className="btn btn-ghost">Kontakt</a>
-          <a
-            href="https://github.com/mosypka"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-ghost"
-          >
-            GitHub ↗
-          </a>
+          <a href="#projects" className="btn btn-primary">{tx.hero_btn_projects}</a>
+          <a href="#about" className="btn btn-ghost">{tx.nav_about}</a>
+          <a href="#contact" className="btn btn-ghost">{tx.hero_btn_contact}</a>
+          <a href="https://github.com/mosypka" target="_blank" rel="noopener noreferrer" className="btn btn-ghost">GitHub ↗</a>
         </div>
       </div>
     </section>
