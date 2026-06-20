@@ -32,6 +32,11 @@ export const t = {
         tagline: 'CPU/GPU Temperature & Fan Control',
         description: 'Python Desktop-Tool zur Echtzeit-Überwachung von CPU/GPU-Temperaturen und Lüfterdrehzahlen via lm-sensors und nvidia-smi. CustomTkinter UI mit matplotlib-Graphen.',
       },
+      {
+        name: 'Buchladen CRUD',
+        tagline: 'GraphQL/Apollo Bücherverwaltung',
+        description: 'Vollständiges CRUD-Projekt mit React, Express, Apollo Server und MongoDB/Mongoose. Eigene GraphQL-Schema-Architektur mit React Router für Übersicht, Erfassung und Inline-Bearbeitung.',
+      },
     ],
 
     // Skills
@@ -93,6 +98,11 @@ export const t = {
         name: 'Fan Monitor',
         tagline: 'CPU/GPU Temperature & Fan Control',
         description: 'Python desktop tool for real-time monitoring of CPU/GPU temperatures and fan RPM via lm-sensors and nvidia-smi. CustomTkinter UI with matplotlib graphs.',
+      },
+      {
+        name: 'Bookstore CRUD',
+        tagline: 'GraphQL/Apollo Book Management',
+        description: 'Full CRUD project with React, Express, Apollo Server and MongoDB/Mongoose. Custom GraphQL schema architecture with React Router for overview, creation and inline editing.',
       },
     ],
 
