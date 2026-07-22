@@ -6,7 +6,7 @@ export const t = {
     nav_contact: 'Kontakt',
 
     // Hero
-    hero_bio: 'Ausgebildeter Fachinformatiker AE. 20 Jahre Kundenservice haben meine Softskills geschärft — jetzt back to Basics als Fullstack Developer. Verfügbar ab August 2026.',
+    hero_bio: 'Ausgebildeter Fachinformatiker AE. 20 Jahre Kundenservice haben meine Softskills geschärft — jetzt zurück zu modernen IT- und Supportaufgaben. Verfügbar ab August 2026.',
     hero_btn_projects: 'Projekte',
     hero_btn_contact: 'Kontakt',
 
@@ -59,7 +59,7 @@ export const t = {
     // Contact
     contact_label: 'Kontakt',
     contact_heading: 'Verfügbar ab August 2026',
-    contact_text: 'Ich suche eine Stelle als Fullstack- oder Webentwickler im Raum Aachen / Geilenkirchen oder remote. Offen für Festanstellung oder Einstiegspositionen mit Wachstumsperspektive.',
+    contact_text: 'Ich suche eine Stelle im IT-Support, als Webentwickler oder in der IT im Raum Aachen / Geilenkirchen oder remote. Offen für Festanstellung oder Einstiegspositionen mit Wachstumsperspektive.',
     contact_location: 'Geilenkirchen, NRW',
 
     // Footer
@@ -73,7 +73,7 @@ export const t = {
     nav_contact: 'Contact',
 
     // Hero
-    hero_bio: 'Trained IT specialist (Fachinformatiker AE). 20 years in customer service sharpened my soft skills — now back to basics as a Fullstack Developer. Available from August 2026.',
+    hero_bio: 'Trained IT specialist (Fachinformatiker AE). 20 years in customer service sharpened my soft skills — now returning to modern IT and support roles. Available from August 2026.',
     hero_btn_projects: 'Projects',
     hero_btn_contact: 'Contact',
 
@@ -126,7 +126,7 @@ export const t = {
     // Contact
     contact_label: 'Contact',
     contact_heading: 'Available from August 2026',
-    contact_text: 'Looking for a fullstack or web developer position in the Aachen / Geilenkirchen area or remote. Open to permanent positions or entry-level roles with growth potential.',
+    contact_text: 'Looking for a role in IT support, web development or IT in the Aachen / Geilenkirchen area or remote. Open to permanent positions or entry-level roles with growth potential.',
     contact_location: 'Geilenkirchen, NRW',
 
     // Footer

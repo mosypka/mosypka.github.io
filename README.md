@@ -1,6 +1,6 @@
 # mosypka.github.io
 
-Personal portfolio website of Matthias Osypka — Fullstack Developer based in Geilenkirchen, NRW.
+Personal portfolio website of Matthias Osypka — IT Specialist based in Geilenkirchen, NRW.
 
 Built with Vite + React, deployed via GitHub Pages.
 

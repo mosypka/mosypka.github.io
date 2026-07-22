@@ -6,7 +6,8 @@ import './Hero.css'
 import userpic from '../assets/userpic_klein.jpg'
 
 const ROLES = [
-  'Fullstack Developer',
+  'IT Specialist',
+  'IT Support',
   'React & Node.js',
   'Python & Flask',
   'Linux & Open Source',
