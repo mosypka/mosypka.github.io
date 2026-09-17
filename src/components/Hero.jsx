@@ -5,17 +5,26 @@ import { t } from '../translations'
 import './Hero.css'
 import userpic from '../assets/userpic_klein.jpg'
 
-const ROLES = [
-  'IT Specialist',
-  'IT Support',
-  'React & Node.js',
-  'Python & Flask',
-  'Linux & Open Source',
-]
-
 export default function Hero() {
   const { lang } = useLang()
   const tx = t[lang]
+  const ROLES = lang === 'de'
+    ? [
+        'Fullstack Web Entwickler',
+        'IT Specialist',
+        'IT Support',
+        'React & Node.js',
+        'Python & Flask',
+        'Linux & Open Source',
+      ]
+    : [
+        'Fullstack Web Developer',
+        'IT Specialist',
+        'IT Support',
+        'React & Node.js',
+        'Python & Flask',
+        'Linux & Open Source',
+      ]
   const [roleIndex, setRoleIndex] = useState(0)
   const [displayed, setDisplayed] = useState('')
   const [deleting, setDeleting] = useState(false)
